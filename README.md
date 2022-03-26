@@ -1,11 +1,24 @@
-# modsecurity_rpm
+# Modsecurity RPM
+A pre-compiled binary of modsecurity for rhel.
+It is available in a ".rpm" package and will save your hours not having to compile yourself.
 
+These package target RHEL versions
+* CentOS 8
+* Rocky Linux
+* Modern Fedora
+* Oracle Linux 8
+
+## Using
+- Oracle Linux 8 x86 64bit
+- Modsecurity v2.9.5
+
+## Before execution command bellow
 ```bash
 dnf -y install dnf-plugins-core
 dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 ```
 
-## 사용중인 OS에 따라 선택
+## Select Using Operation
 ### CentOS 8 Repoid (8.2.2004 and before)
 ```bash
 dnf config-manager --set-enabled PowerTools
