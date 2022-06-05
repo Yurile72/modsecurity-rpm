@@ -31,7 +31,7 @@ dnf config-manager --set-enabled powertools
 ```bash
 dnf config-manager --set-enabled ol8_codeready_builder
 ```
-###RHEL 8
+### RHEL 8
 ```bash
 subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
 ```
